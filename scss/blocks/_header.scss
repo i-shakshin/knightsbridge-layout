@@ -1,0 +1,16 @@
+.header {
+  min-height: 257px;
+}
+.container {
+  padding: 0 120px;
+}
+
+.header__title {
+  font-size: 36px;
+  font-family: $font-accent;
+  line-height: 44px;
+  color: $gray-accent;
+  max-width: 527px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}

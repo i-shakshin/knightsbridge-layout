@@ -1,0 +1,79 @@
+.about {
+  background-color: $bg-gray;
+}
+
+.about__gallery-row {
+  display: flex;
+  gap: 31px;
+}
+
+.about__gallery-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__gallery {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  right: 0;
+  top: 177px;
+}
+
+.about__gallery-second-2 {
+  height: 141px;
+}
+
+.about__params-row {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  gap: 30px;
+}
+
+.about__description-text {
+  max-width: 319px;
+  line-height: 24px;
+  color: $black;
+}
+
+.about_row {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 74px;
+}
+
+.about__gallery-link-1 {
+  padding-top: 117px;
+  text-align: center;
+  width: 232px;
+  height: 210px;
+  background-image: url("../../img/header/Rectangle.png");
+  background-repeat: no-repeat;
+  color: $white;
+}
+
+.about__gallery-link-2 {
+  padding-top: 127px;
+  width: 232px;
+  height: 210px;
+  text-align: center;
+  background-image: url("../../img/header/Rectangle1.png");
+  background-repeat: no-repeat;
+  color: $white;
+}
+
+.about__params-number {
+  font-size: 30px;
+  font-family: $font-bold;
+  line-height: 24px;
+  color: $black;
+}
+
+.about__params-title {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
